@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="text_size_default">18sp</dimen>
+
+    <!-- 间距 -->
+    <dimen name="normal_space">10dp</dimen>
+    <!--<dimen name="little_space">2dp</dimen>-->
+    <dimen name="little_space">1dp</dimen>
+    <!-- 高度 -->
+    <dimen name="normal_input_height">45dp</dimen>
+
+    <dimen name="textsize_20sp">20sp</dimen>
+    <dimen name="paddingLeft_30dp">30dp</dimen>
+    <dimen name="paddingRight_30dp">30dp</dimen>
+
+    <dimen name="textsize_25sp">25sp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="imagesize_30dp">30dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+
+    <dimen name="texisize_18sp">18sp</dimen>
+    <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="layout_width_45dp">45dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="height_30dp">30dp</dimen>
+    <dimen name="width_30dp">30dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

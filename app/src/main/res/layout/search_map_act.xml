@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_space"
+        android:textSize="@dimen/title_text_size"
+        android:background="@color/normal_orange_color"
+        android:textColor="@color/white"
+        android:text="发现"
+        android:visibility="visible"
+        android:gravity="center_horizontal"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.amap.api.maps.MapView
+            android:id="@+id/search_mymap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.amap.api.maps.MapView>
+        <ImageView
+            android:id="@+id/search_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#88666666"
+            android:padding="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/back"/>
+        <ImageView
+            android:id="@+id/search_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:background="#88666666"
+            android:paddingLeft="7dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="5dp"
+            android:padding="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/map_refresh"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

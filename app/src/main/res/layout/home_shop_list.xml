@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeCategoryShopActivity"
+    android:orientation="vertical"
+    android:background="@color/normal_orange_color">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_space"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/white"
+        android:text="商店"
+        android:visibility="visible"
+        android:gravity="center_horizontal"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/index_listShop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:background="@color/white"
+        >
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</LinearLayout>

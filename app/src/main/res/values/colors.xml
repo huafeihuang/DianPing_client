@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="yellow">#00ff00</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#696969</color>
+    <color name="orange">#ff6633</color>
+
+    <color name="normal_bg_color">#66E0DFE0</color>
+    <color name="normal_orange_color">#FF6633</color>
+    <color name="location_city_bg">#e1e1e0</color>
+
+</resources>

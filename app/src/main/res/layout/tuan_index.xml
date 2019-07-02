@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/normal_space"
+            android:text="团购"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_text_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_menu"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:entries="@array/category"
+
+            >
+
+        </Spinner>
+
+
+
+
+    </LinearLayout>
+
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/index_listGoods"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:scrollbars="none">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

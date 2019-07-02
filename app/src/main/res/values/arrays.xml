@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>全部生活</item>
+        <item>今日新单</item>
+        <item>餐饮美食</item>
+        <item>休闲娱乐</item>
+        <item>电影</item>
+        <item>生活服务</item>
+        <item>摄影写真</item>
+        <item>酒店</item>
+        <item>旅游</item>
+        <item>教育培训</item>
+        <item>抽奖公益</item>
+        <item>购物</item>
+        <item>丽人</item>
+        <item>食品茶酒</item>
+    </string-array>
+
+</resources>
